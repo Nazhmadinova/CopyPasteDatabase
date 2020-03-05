@@ -4,6 +4,28 @@ Feature: Student module
     When User clicks on Student module
     And User clicks on Add Student link
     And User fills all fields
+      |FirstName||
+      |LastName||
+      |Email||
+      |Joining_Date||
+      |Password||
+      |Confirm_Password||
+      |Subject||
+      |Gender||
+      |Birth_Date||
+      |Batch||
+      |Mobile_number||
+      |Admission_No||
+      |Major||
+      |Section||
+      |Permanent_Address||
+      |Company_name||
+      |Title||
+      |Start_Date||
+      |City||
+      |Street||
+      |ZipCode||
+      |State||
     And User clicks on submit button
     Then User sees created student in All Student list
 

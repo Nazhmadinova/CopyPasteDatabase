@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "As a User I should able to create teacher",
+        "description": "",
+        "id": "teacher-module;as-a-user-i-should-able-to-create-teacher",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12474920877,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on home page",
+            "match": {
+              "location": "TeacherModuleSteps.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 398898317,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Teacher module",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_Teacher_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1050557604,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Add Teacher link",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_Add_Teacher_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38223,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fills all fields",
+            "match": {
+              "location": "TeacherModuleSteps.user_fills_all_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15012,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13892,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sees created student in All Student list",
+            "match": {
+              "location": "TeacherModuleSteps.user_sees_created_student_in_All_Student_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Teacher module",
+    "description": "",
+    "id": "teacher-module",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/TeacherModule.feature",
+    "tags": []
+  }
+]
