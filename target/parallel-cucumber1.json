@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 1178472850,
+              "duration": 1124157784,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 5139425057,
+              "duration": 5162609937,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9609825765,
+              "duration": 9499589655,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 688706576,
+              "duration": 516966877,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 1116220269,
+              "duration": 969777263,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 11327975170,
+              "duration": 12445273545,
               "status": "passed"
             },
             "line": 8,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 175602187,
+              "duration": 327815576,
               "status": "passed"
             },
             "line": 31,
@@ -228,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 100324,
+              "duration": 1713469440,
               "status": "passed"
             },
             "line": 32,
@@ -238,18 +238,13 @@
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "name": "@test"
-          }
         ]
       },
       {
         "before": [
           {
             "result": {
-              "duration": 794900,
+              "duration": 2421392,
               "status": "passed"
             },
             "match": {
@@ -264,7 +259,7 @@
         "after": [
           {
             "result": {
-              "duration": 5151313887,
+              "duration": 5175964336,
               "status": "passed"
             },
             "match": {
@@ -277,7 +272,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5517109257,
+              "duration": 6346181821,
               "status": "passed"
             },
             "line": 36,
@@ -289,7 +284,7 @@
           },
           {
             "result": {
-              "duration": 681285221,
+              "duration": 468145685,
               "status": "passed"
             },
             "line": 37,
@@ -301,7 +296,7 @@
           },
           {
             "result": {
-              "duration": 525831693,
+              "duration": 800917761,
               "status": "passed"
             },
             "line": 38,
@@ -313,7 +308,7 @@
           },
           {
             "result": {
-              "duration": 12452666727,
+              "duration": 15985470475,
               "status": "passed"
             },
             "line": 39,
@@ -331,7 +326,7 @@
           },
           {
             "result": {
-              "duration": 2186846409,
+              "duration": 1625215762,
               "status": "passed"
             },
             "line": 40,
@@ -349,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 99745524,
+              "duration": 99690702,
               "status": "passed"
             },
             "line": 41,
@@ -361,7 +356,7 @@
           },
           {
             "result": {
-              "duration": 89814,
+              "duration": 503928717,
               "status": "passed"
             },
             "line": 42,
@@ -371,18 +366,13 @@
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "name": "@test"
-          }
         ]
       },
       {
         "before": [
           {
             "result": {
-              "duration": 561500,
+              "duration": 476400,
               "status": "passed"
             },
             "match": {
@@ -397,7 +387,7 @@
         "after": [
           {
             "result": {
-              "duration": 5135862965,
+              "duration": 5247119297,
               "status": "passed"
             },
             "match": {
@@ -410,7 +400,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6139669085,
+              "duration": 5206711807,
               "status": "passed"
             },
             "line": 46,
@@ -422,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 332258917,
+              "duration": 522273644,
               "status": "passed"
             },
             "line": 47,
@@ -434,7 +424,7 @@
           },
           {
             "result": {
-              "duration": 593483409,
+              "duration": 684001402,
               "status": "passed"
             },
             "line": 48,
@@ -446,7 +436,7 @@
           },
           {
             "result": {
-              "duration": 13819348951,
+              "duration": 13849218865,
               "status": "passed"
             },
             "line": 49,
@@ -464,7 +454,7 @@
           },
           {
             "result": {
-              "duration": 97852,
+              "duration": 1051531821,
               "status": "passed"
             },
             "line": 50,
@@ -473,11 +463,6 @@
               "location": "StudentModuleSteps.user_verifies_deleted_student_is_not_in_the_students_list()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@test"
           }
         ]
       }

@@ -28,7 +28,7 @@ public class AllStudentsPage {
     @FindBy(xpath = "//h4[@class='user-name m-t-10 m-b-0 text-ellipsis']/a")
     public List<WebElement> allStudentsName;
 
-    @FindBy(xpath = "//a[@class='action-icon dropdown-toggle']")  //div[@class='dropdown profile-action']
+    @FindBy(xpath = "//a[@class='action-icon dropdown-toggle']")  //div[@class='dropdown profile-action'] //a[@class='action-icon dropdown-toggle']
     public List<WebElement> threeDots;
 
     @FindBy(xpath = "//a/i[@class='fa fa-pencil m-r-5']")
