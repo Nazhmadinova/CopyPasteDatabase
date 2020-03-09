@@ -1,0 +1,492 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1178472850,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a User I should able to create student",
+        "description": "",
+        "id": "student-module;as-a-user-i-should-able-to-create-student",
+        "after": [
+          {
+            "result": {
+              "duration": 5139425057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9609825765,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on home page",
+            "match": {
+              "location": "TeacherModuleSteps.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 688706576,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Student module",
+            "match": {
+              "location": "StudentModuleSteps.user_clicks_on_Student_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1116220269,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Add Student link",
+            "match": {
+              "location": "StudentModuleSteps.user_clicks_on_Add_Student_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11327975170,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fills all fields using bellow data",
+            "match": {
+              "location": "StudentModuleSteps.user_fills_all_fields_using_bellow_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "Daniel"
+                ]
+              },
+              {
+                "cells": [
+                  "LastName",
+                  "Brown"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "danielbrown@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Joining_Date",
+                  "02/03/2016"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "54321"
+                ]
+              },
+              {
+                "cells": [
+                  "Confirm_Password",
+                  "54321"
+                ]
+              },
+              {
+                "cells": [
+                  "Subject",
+                  "IT"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              },
+              {
+                "cells": [
+                  "Birth_Date",
+                  "02/02/1992"
+                ]
+              },
+              {
+                "cells": [
+                  "Batch",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "Mobile_number",
+                  "7738765432"
+                ]
+              },
+              {
+                "cells": [
+                  "Admission_No",
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "Major",
+                  "Computer Science"
+                ]
+              },
+              {
+                "cells": [
+                  "Section",
+                  "A"
+                ]
+              },
+              {
+                "cells": [
+                  "Permanent_Address",
+                  "321 Main st"
+                ]
+              },
+              {
+                "cells": [
+                  "Company_name",
+                  "Cybertek"
+                ]
+              },
+              {
+                "cells": [
+                  "Title",
+                  "SDET"
+                ]
+              },
+              {
+                "cells": [
+                  "Start_Date",
+                  "03/04/2017"
+                ]
+              },
+              {
+                "cells": [
+                  "City",
+                  "Chicago"
+                ]
+              },
+              {
+                "cells": [
+                  "Street",
+                  "231 Michigan ave"
+                ]
+              },
+              {
+                "cells": [
+                  "ZipCode",
+                  "60786"
+                ]
+              },
+              {
+                "cells": [
+                  "State",
+                  "IL"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175602187,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100324,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User sees created student in All Student list",
+            "match": {
+              "location": "StudentModuleSteps.user_sees_created_student_in_All_Student_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 794900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "As a User I should able to update student",
+        "description": "",
+        "id": "student-module;as-a-user-i-should-able-to-update-student",
+        "after": [
+          {
+            "result": {
+              "duration": 5151313887,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5517109257,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User on home page",
+            "match": {
+              "location": "TeacherModuleSteps.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 681285221,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User clicks on Student module",
+            "match": {
+              "location": "StudentModuleSteps.user_clicks_on_Student_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 525831693,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User clicks on All Students link",
+            "match": {
+              "location": "StudentModuleSteps.user_clicks_on_All_Students_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12452666727,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User picks \"Daniel\" from students list and click on edit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Daniel\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StudentModuleSteps.user_picks_from_students_list_and_click_on_edit_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2186846409,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User changes major to \"psychology\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"psychology\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StudentModuleSteps.user_changes_major_to(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99745524,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User clicks submit button",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89814,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User sees the updated major in updated student info",
+            "match": {
+              "location": "StudentModuleSteps.user_sees_the_updated_phone_number_in_updated_student_info()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 561500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "As a User I should able to delete student",
+        "description": "",
+        "id": "student-module;as-a-user-i-should-able-to-delete-student",
+        "after": [
+          {
+            "result": {
+              "duration": 5135862965,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6139669085,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User on home page",
+            "match": {
+              "location": "TeacherModuleSteps.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332258917,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User clicks on Student module",
+            "match": {
+              "location": "StudentModuleSteps.user_clicks_on_Student_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 593483409,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User clicks on All Students link",
+            "match": {
+              "location": "StudentModuleSteps.user_clicks_on_All_Students_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13819348951,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User picks \"Daniel\" from students list and click on delete button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Daniel\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StudentModuleSteps.user_picks_from_students_list_and_click_on_delete_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97852,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User verifies deleted student is not in the students list",
+            "match": {
+              "location": "StudentModuleSteps.user_verifies_deleted_student_is_not_in_the_students_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Student module",
+    "description": "",
+    "id": "student-module",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/StudentModule.feature",
+    "tags": []
+  }
+]

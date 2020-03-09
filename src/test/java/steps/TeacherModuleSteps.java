@@ -187,7 +187,7 @@ public class TeacherModuleSteps {
             }
         }
 
-        SeleniumUtils.explicitWaitForVisibility(allTeachersPage.deletePopUp,5);
+        SeleniumUtils.explicitWaitForVisibility(allTeachersPage.deletePopUp,10);
         allTeachersPage.deletePopUp.click();
 
     }

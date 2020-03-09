@@ -1,0 +1,450 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1224776226,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a User I should able to create teacher",
+        "description": "",
+        "id": "teacher-module;as-a-user-i-should-able-to-create-teacher",
+        "after": [
+          {
+            "result": {
+              "duration": 5121052953,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8763932938,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on home page",
+            "match": {
+              "location": "TeacherModuleSteps.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 646002987,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Teacher module",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_Teacher_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1012203598,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Add Teacher link",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_Add_Teacher_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10678295905,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fills all fields",
+            "match": {
+              "location": "TeacherModuleSteps.user_fills_all_fields(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "Anna"
+                ]
+              },
+              {
+                "cells": [
+                  "LastName",
+                  "Hanna"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "annahanna@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Joining_Date",
+                  "09/28/2019"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "12345"
+                ]
+              },
+              {
+                "cells": [
+                  "Confirm_Password",
+                  "12345"
+                ]
+              },
+              {
+                "cells": [
+                  "Subject",
+                  "Math"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Female"
+                ]
+              },
+              {
+                "cells": [
+                  "Birth_Date",
+                  "05/05/55"
+                ]
+              },
+              {
+                "cells": [
+                  "Batch",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "Mobile_number",
+                  "7737857322"
+                ]
+              },
+              {
+                "cells": [
+                  "Department",
+                  "Maths"
+                ]
+              },
+              {
+                "cells": [
+                  "Salary",
+                  "200000"
+                ]
+              },
+              {
+                "cells": [
+                  "Section",
+                  "A"
+                ]
+              },
+              {
+                "cells": [
+                  "Permanent_Address",
+                  "123 Main st"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224073036,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51480,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User sees created teacher in All Teachers list",
+            "match": {
+              "location": "TeacherModuleSteps.user_sees_created_student_in_All_Student_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 970715,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "As a User I should able to update teacher",
+        "description": "",
+        "id": "teacher-module;as-a-user-i-should-able-to-update-teacher",
+        "after": [
+          {
+            "result": {
+              "duration": 5173598388,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6991949074,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User on home page",
+            "match": {
+              "location": "TeacherModuleSteps.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 520712203,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on Teacher module",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_Teacher_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5366740934,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on All Teachers link",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_All_Teachers_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36039999753,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User picks \"Anna\" and click on edit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anna\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TeacherModuleSteps.user_picks_and_click_on_edit_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1516604886,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User changes phone number to \"7737857373\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7737857373\"",
+                  "offset": 29
+                }
+              ],
+              "location": "TeacherModuleSteps.user_changes_phone_number_to(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79253705,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks submit button",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User sees the updated phone number",
+            "match": {
+              "location": "TeacherModuleSteps.user_sees_the_updated_phone_number()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1961138,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "As a User I should able to delete teacher",
+        "description": "",
+        "id": "teacher-module;as-a-user-i-should-able-to-delete-teacher",
+        "after": [
+          {
+            "result": {
+              "duration": 5124808655,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5083242343,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User on home page",
+            "match": {
+              "location": "TeacherModuleSteps.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 372381136,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User clicks on Teacher module",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_Teacher_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5450519709,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User clicks on All Teachers link",
+            "match": {
+              "location": "TeacherModuleSteps.user_clicks_on_All_Teachers_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25246716506,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User picks \"Anna\" and click on delete button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anna\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TeacherModuleSteps.user_picks_teacher_and_click_on_delete_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55840,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User verifies deleted teacher is not in the teachers list",
+            "match": {
+              "location": "TeacherModuleSteps.user_verifies_deleted_teacher_is_not_in_the_teachers_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Teacher module",
+    "description": "",
+    "id": "teacher-module",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/TeacherModule.feature",
+    "tags": []
+  }
+]
