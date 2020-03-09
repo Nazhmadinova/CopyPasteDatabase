@@ -1,6 +1,6 @@
 Feature: Student module
 
-#  @test
+  @test
   Scenario: As a User I should able to create student
     Given User on home page
     When User clicks on Student module
@@ -31,7 +31,7 @@ Feature: Student module
     And User clicks on submit button
     Then User sees created student in All Student list
 
-#  @test
+  @test
   Scenario: As a User I should able to update student
     Given User on home page
     When User clicks on Student module
@@ -41,7 +41,7 @@ Feature: Student module
     And User clicks submit button
     Then User sees the updated major in updated student info
 
-#  @test
+  @test
   Scenario: As a User I should able to delete student
     Given User on home page
     When User clicks on Student module

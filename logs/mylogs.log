@@ -81,3 +81,9 @@
 [INFO ] 2020-03-08 19:46:31.182 [main] Log - scenario start point: As a User I should able to delete teacher
 [INFO ] 2020-03-08 19:50:29.365 [main] Log - scenario start point: As a User I should able to create teacher
 [INFO ] 2020-03-08 20:38:19.335 [main] Log - scenario start point: As a User I should able to update student
+[INFO ] 2020-03-09 12:43:23.768 [main] Log - scenario start point: As a User I should able to create student
+[INFO ] 2020-03-09 12:43:49.163 [main] Log - scenario start point: As a User I should able to update student
+[INFO ] 2020-03-09 12:44:10.791 [main] Log - scenario start point: As a User I should able to delete student
+[INFO ] 2020-03-09 12:44:31.024 [main] Log - scenario start point: As a User I should able to create teacher
+[INFO ] 2020-03-09 12:44:56.531 [main] Log - scenario start point: As a User I should able to update teacher
+[INFO ] 2020-03-09 12:45:51.797 [main] Log - scenario start point: As a User I should able to delete teacher
