@@ -32,7 +32,7 @@ public class AllTeachersPage {
     public List<WebElement> threeDots;
 
     @FindBy(xpath = "//a/i[@class='fa fa-pencil m-r-5']")
-    public WebElement edit;
+    public List<WebElement> edit;
 
     @FindBy(xpath = "//a[@data-target='#delete_employee']")
     public List<WebElement> delete;
