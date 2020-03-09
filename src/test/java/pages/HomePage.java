@@ -17,7 +17,7 @@ public class HomePage {
     @FindBy(xpath = "//a[contains(text(),'Add Teacher')]")
     public WebElement addTeacher;
 
-    @FindBy(xpath = "//a[.='All Teachers']")
+    @FindBy(xpath = "//a[.='All Teacher']")
     public WebElement allTeachers;
 
     @FindBy(xpath = "(//a[@href='#'])[5]")
