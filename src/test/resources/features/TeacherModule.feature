@@ -1,6 +1,6 @@
 Feature: Teacher module
 
-#  @test
+  @test
   Scenario: As a User I should able to create teacher
     Given User on home page
     When User clicks on Teacher module
@@ -24,7 +24,7 @@ Feature: Teacher module
     And User clicks on submit button
     Then User sees created teacher in All Teachers list
 
-#  @test
+  @test
   Scenario: As a User I should able to update teacher
     Given User on home page
     When User clicks on Teacher module
@@ -34,7 +34,7 @@ Feature: Teacher module
     And User clicks submit button
     Then User sees the updated phone number
 
-#  @test
+  @test
   Scenario: As a User I should able to delete teacher
     Given User on home page
     When User clicks on Teacher module

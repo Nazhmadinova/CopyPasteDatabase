@@ -324,13 +324,7 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-});Students_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User picks \"Daniel\" from students list and click on delete button",
+}); button",
   "keyword": "And "
 });
 formatter.match({
